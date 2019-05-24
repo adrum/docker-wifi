@@ -4,7 +4,7 @@ This use the wpa_supplicant package to generate a hashed psk for specific SSID t
 
 `sudo docker run adrum/wifi wpa_passphrase "ssid" "password"`
 
-Which generates the block below to be place in `/etc/wpa_supplicant/wpa_supplicant.conf`.
+Which generates the block below to be placed in `/etc/wpa_supplicant/wpa_supplicant.conf`.
 
 ```
 network={
